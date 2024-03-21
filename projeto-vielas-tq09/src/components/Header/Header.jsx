@@ -5,30 +5,32 @@ const Header = () => {
   return (
     <div className='Header'>
       <ul className='ul-header'>
-        <li>
+        <li class='menu-list'>
           <a href="/">
-           <img src="./Image/menu.png" alt="Menu" />
+          <img src="./Image/list.svg" alt="Menu" />
            </a>
           </li>
           <li class='name'>
-            <a href="/">Vielas</a>
+            <h1 id='style-name'>VIELAS</h1>
           </li>
-          <li id='login' button='login'>
+          <li id='login' onClique='login'>
             <a href="/login">Login</a>
           </li>
           <li id='perfil'>
-            <a href="/perfil">Foto Perfil</a>
-          </li>
-        
+            <img src="./Image/person.svg" alt='Foto'/>
+          </li>     
       </ul>
+      <div className='busca'>
+        <Busca />
+      </div>
     </div>
   );
 }
 
-const Busca = () => {
+ export const Busca = () => {
   return (
-    <div classNme='busca'>
-      <img src="./Image/lupa.png" alt="Buscar" />
+    <div>
+      <img id='lupa' src="./Image/search.svg" alt="Lupa" />
       <input type="text" placeholder="Buscar" />
     </div>
   );

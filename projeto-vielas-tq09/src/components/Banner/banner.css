@@ -1,0 +1,25 @@
+:root {
+    color: #414278;
+    color: #8140A6;
+    color: #EAC05A;
+    color: #C8DDDA;
+    color: #4761B4;
+    color: #70707000;
+    color: #E5401B;
+} 
+* {
+    box-sizing: border-box;
+    font-family: 'Space Mono', monospace;
+}
+
+.banner {
+    background: transparent url('img/51415802546_c8275329a9_k(1).png') 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity:1;
+    top: 314px;
+    left: 140px;
+    width: 950px;
+    heigth: 534px;
+}
+
+

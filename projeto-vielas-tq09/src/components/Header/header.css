@@ -6,13 +6,13 @@
 :root {
 
     /* Colors: */
-    ---414278: #414278;
-    ---8140a6: #8140A6;
-    ---eac05a: #EAC05A;
-    ---c8ddda: #C8DDDA;
-    ---4761b4: #4761B4;
-    --unnamed-color-70707000: #70707000;
-    --unnamed-color-e5401b: #E5401B;
+    color: #414278;
+    color: #8140A6;
+    color: #EAC05A;
+    color: #C8DDDA;
+    color: #4761B4;
+    color: #70707000;
+    color: #E5401B;
 }
 
 .Header {
@@ -36,8 +36,9 @@
     justify-content: space-between;
     align-items: center;
     list-style: none;
-    padding: 15px;
-    margin: 25px;
+    padding: 10px 5px 5px 10px;
+    margin: 20x 5px 1px 20px;
+    width: 1920px;
 }
 
 .menu {
@@ -48,18 +49,31 @@
     height: 51px;
     opacity: 1;
 }
+.menu-list {
+    top: 29px;
+    left: 139px;
+    width:93px;
+    height:51px;
+    opacity: 1;
+}
 
 .name {
-    color:#ffffff;
-    font: normal normal normal 46px/69px Space Mono;
-    letter-spacing: 0px;
-    opacity: 1;
-    text-align: left;
     top: 21px;
     left: 259px;
     width: 270px;
     height: 51px;
     padding-left: 13px;
+}
+
+#style-name {
+    color:#ffffff;
+    font-family: 'Space Mono' monospace;
+    font: normal normal normal 46px/69px Space Mono;
+    letter-spacing: 0px;
+    opacity: 1;
+    text-align: left;
+    margin-top: auto;
+    font-size: 25px;
 }
 
 #login {
@@ -74,6 +88,7 @@
     opacity: 1;
     padding-left: 20px;
     margin: 40px;
+    font-size: 20px;
 }
 
 #perfil {
@@ -88,6 +103,25 @@
     padding: 10px 10px;
 }
 
+.busca {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  width: 100%;
+  margin-top: 120px;
+} 
+
+#lupa {
+    display: flex;
+    justify-items: center;
+    top: 182px;
+    left: 307px;
+    width: 50px;
+    height: 50px;
+    opacity: 1;;
+}
+
 input {
     background: #ffffff 0% 0% no-repeat padding-box;
     border: 2px solid #707070;
@@ -96,5 +130,5 @@ input {
     top: 172px;
     left: 278px;
     width: 1364px;
-    height: 70px;
+    height: 54px;
 }
