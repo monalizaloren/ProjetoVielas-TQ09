@@ -20,18 +20,15 @@ const Header = () => {
             <img src="./Image/person.svg" alt='Foto'/>
           </li>     
       </ul>
-      <div className='busca'>
-        <Busca />
-      </div>
     </div>
   );
 }
 
  export const Busca = () => {
   return (
-    <div>
+    <div className='Busca'>
       <img id='lupa' src="./Image/search.svg" alt="Lupa" />
-      <input type="text" placeholder="Buscar" />
+      <input class='style-busca' type="text" placeholder="Buscar" />
     </div>
   );
 }

@@ -13,13 +13,34 @@
 }
 
 .banner {
-    background: transparent url('img/51415802546_c8275329a9_k(1).png') 0% 0% no-repeat padding-box;
+    background: #4761b4 0% 0% no-repeat padding-box;
+    color: #ffffff;
+    border: 1px solid #707070;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+    width: 350px;
+    height: 450px;
+    margin-left: 45px;
+    padding-left: 45px;
+}
+
+
+.carrossel {
+    background: transparent url('https://www.agenciamural.org.br/wp-content/uploads/2019/01/S%C3%A3o-Mateus-1.jpg') 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
     opacity:1;
     top: 314px;
     left: 140px;
     width: 950px;
-    heigth: 534px;
+    height: 450px;
+    display: flex;
+    align-items: right;
+    align-content: flex-end;
+    justify-content: right;
+    margin: 50px;
 }
 
 
