@@ -1,12 +1,13 @@
 import React from 'react'
 import Header from '../../components/Header/Header'
-import Colecao from '../../components/Colecao/Colecao'
+import Colecoes from '../../components/Colecoes/Colecoes'
+
 
 const HomePage = () => {
   return (
     <div>
         <Header></Header>
-        <Colecao></Colecao>
+        <Colecoes></Colecoes> 
     </div>
   )
 }

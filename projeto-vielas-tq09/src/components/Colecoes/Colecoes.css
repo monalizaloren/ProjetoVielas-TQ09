@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.container {
+  padding: 0 140px;
+  font-family: 'Space Mono', sans-serif;
+  
+}
+.title {
+  margin: auto;
+  text-align: left;
+  color: var(--black);
+  opacity: 1;
+  font-size: 40px;
+}
+.imagensColecoes{
+  display: flex;
+  gap:16px;
+  
+}
+
+
+.img {
+  width: 536px;
+  height: 257px;
+  background: transparent; 
+  
+}
+
+
+
+.imagensColecoes h2 {
+  margin: auto;
+  text-align: left;
+  font-size: 36px;
+  color: var(--black);
+  
+}
+
+.imagensColecoes p {
+  
+  margin: auto;
+  text-align: left;
+  font-weight: 400;
+  font-size: 30px;
+  color: var(--black);
+
+  letter-spacing: 1px;
+  
+  
+}
+
+
+.imagens {
+  border-top: 3px solid #4761B4;
+  margin-top: 179px;
+  padding-top: 79px;
+  
+
+  justify-items: stretch;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2,auto);
+
+  gap: 20px;
+
+  position: absolute;
+  
+}
