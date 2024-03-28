@@ -4,12 +4,14 @@ import './banner.css'
 const Banner = () => {
     return (
         <div className='banner'>
-            <h1>VIELAS</h1>
+            <div className='texto'>
+             <h1 className='texto-1'>VIELAS</h1>
 
-            <p>Um banco de imagens pensado para mostrar a diversidade das periferias de São Paulo.
-            </p>
-            <p>Nascido nas quebradas e fomentado por quem vive e pensa nelas.
-            </p>
+             <p className='paragrafo'>Um banco de imagens pensado para mostrar a diversidade das periferias de São Paulo.
+             <br />
+             Nascido nas quebradas e fomentado por quem vive e pensa nelas.
+             </p>
+            </div>
             <div>
                 <Carrossel />
             </div>

@@ -1,5 +1,5 @@
 import React from 'react'
-import Header, { Busca } from '../../components/Header/Header'
+import Header, { Busca, Hashtags } from '../../components/Header/Header'
 import Colecao from '../../components/Colecao/Colecao'
 import Banner from '../../components/Banner/Banner'
 
@@ -9,6 +9,7 @@ const HomePage = () => {
     <div>
         <Header></Header>
         <Busca></Busca>
+        <Hashtags></Hashtags>
         <Banner></Banner>
         <Colecao></Colecao>
     </div>
