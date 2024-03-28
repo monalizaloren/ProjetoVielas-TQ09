@@ -18,8 +18,8 @@ const Header = () => {
         </li>
       </ul>
       <ul className='ul-header-2'>
-        <li id='login' button='login'>
-          <a href="/login">Login</a>
+        <li id='login'>
+          <a  className='login' href="/login">Login</a>
         </li>
         <li id='perfil'>
           <img className='pessoa' src={pessoa} alt='Foto' />
