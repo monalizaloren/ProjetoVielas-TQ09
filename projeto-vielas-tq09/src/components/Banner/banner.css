@@ -1,0 +1,71 @@
+:root {
+    color: #414278;
+    color: #8140A6;
+    color: #EAC05A;
+    color: #C8DDDA;
+    color: #4761B4;
+    color: #70707000;
+    color: #E5401B;
+} 
+* {
+    box-sizing: border-box;
+    font-family: 'Space Mono', monospace;
+}
+
+.banner {
+   display: Flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto {
+    background: #4761b4 0% 0% no-repeat padding-box;
+    color: #ffffff;
+    border: 1px solid #707070;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 426px;
+    height: 486px;
+    padding: 10px;
+    margin-left: 45px;
+    margin-top: 33px;
+}
+
+.texto-1 {
+    display:flex;
+    flex-direction: column-reverse;
+    font-size: 46px;
+    font-weight: bold;
+    margin-top: 20px;
+    height: 522px;
+    right: 20px;
+}
+
+.paragrafo {
+    font-size: 20px;
+    margin-top: 5px;
+    height: 340px;
+    display:flex;
+    text-align: left;
+}
+
+
+.carrossel {
+    background: transparent url('https://www.agenciamural.org.br/wp-content/uploads/2019/01/S%C3%A3o-Mateus-1.jpg') 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity:1;
+    top: 314px;
+    left: 140px;
+    width: 865px;
+    height: 486px;
+    display: flex;
+    align-items: right;
+    align-content: flex-end;
+    justify-content: right;
+    margin: 10px;
+    margin-top: 43px;
+}
+
+
