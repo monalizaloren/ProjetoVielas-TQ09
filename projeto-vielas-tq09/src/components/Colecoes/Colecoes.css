@@ -1,68 +1,125 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 .container {
+  width: 100vw;
   padding: 0 140px;
   font-family: 'Space Mono', sans-serif;
-  
+  overflow: hidden;
 }
+
 .title {
   margin: auto;
   text-align: left;
   color: var(--black);
   opacity: 1;
-  font-size: 40px;
+  font-size: 30px;
 }
+
 .imagensColecoes{
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(32%, 1fr));
+  grid-template-rows: repeat(1, auto);
   gap:16px;
-  
 }
 
 
-.img {
-  width: 536px;
-  height: 257px;
+.imgCol {
+  width: 100%;
+  max-width: 380px;
+  height: auto;
+  overflow: hidden;
   background: transparent; 
-  
 }
-
-
 
 .imagensColecoes h2 {
   margin: auto;
   text-align: left;
-  font-size: 36px;
+  font-size: 25px;
   color: #000000;
   letter-spacing: 0px;
 }
 
 .imagensColecoes p {
-  
   margin: auto;
   text-align: left;
   font-weight: 400;
-  font-size: 28px;
+  font-size: 18px;
   color: var(--black);
 
   letter-spacing: 0px;
-  
-  
 }
 
 
 .imagens {
   border-top: 3px solid #4761B4;
-  margin-top: 194px;
+  margin-top: 79px;
   padding-top: 79px;
-  
-  justify-items: stretch;
-
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2,auto);
-
+  grid-template-columns: repeat(3, minmax(32%, 1fr));
+  grid-template-rows: repeat(2, auto);
   gap: 20px;
-
-  position: absolute;
   
+  text-align: center;
+  justify-items: stretch;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 768px) {
+ .container {
+  padding: 0 40px;
+ }
+
+ .imgCol img {
+  width: 100%;
+ }
+ .imagensColecoes{
+  gap: 9px;
+ }
+
+ .title {
+  font-size: 18px;
+ }
+
+ .imagensColecoes h2 {
+  font-size: 14px;
+ }
+
+ .imagensColecoes p {
+  font-size:12px;
+ }
+
+ .imagens {
+  grid-template-columns: repeat(3, minmax(32%, 1fr));
+  margin-top: 45px;
+  padding-top: 45px;
+ }
+}
+
+@media screen and (max-width: 375px){
+  .imagensColecoes, .imagens {
+    grid-template-columns: repeat(1, minmax(32%, 1fr));
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .imagensColecoes h2 {
+    font-size: 16px;
+  }
+
+  .imagensColecoes p {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+  .imagens {
+    margin-top: 35px;
+    
+   }
 }

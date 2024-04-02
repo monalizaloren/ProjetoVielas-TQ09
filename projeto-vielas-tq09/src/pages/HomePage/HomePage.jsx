@@ -6,7 +6,7 @@ import Colecoes from '../../components/Colecoes/Colecoes'
 const HomePage = () => {
   return (
     <div>
-        <Header></Header>
+       
         <Colecoes></Colecoes> 
     </div>
   )
