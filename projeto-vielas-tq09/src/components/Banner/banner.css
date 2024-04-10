@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Space Mono', monospace;
+}    
+
 :root {
     color: #414278;
     color: #8140A6;
@@ -7,10 +12,6 @@
     color: #70707000;
     color: #E5401B;
 } 
-* {
-    box-sizing: border-box;
-    font-family: 'Space Mono', monospace;
-}
 
 .banner {
    display: Flex;
@@ -29,43 +30,93 @@
     width: 426px;
     height: 486px;
     padding: 10px;
-    margin-left: 45px;
+    margin-left: 15px;
     margin-top: 33px;
 }
 
 .texto-1 {
     display:flex;
     flex-direction: column-reverse;
-    font-size: 46px;
+    font-size: 56px;
     font-weight: bold;
-    margin-top: 20px;
+    margin-top: 5px;
     height: 522px;
     right: 20px;
 }
 
 .paragrafo {
     font-size: 20px;
-    margin-top: 5px;
+    margin-top: 10px;
     height: 340px;
     display:flex;
     text-align: left;
 }
-
 
 .carrossel {
     background: transparent url('https://www.agenciamural.org.br/wp-content/uploads/2019/01/S%C3%A3o-Mateus-1.jpg') 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
     opacity:1;
     top: 314px;
-    left: 140px;
-    width: 865px;
+    width: 828px;
     height: 486px;
     display: flex;
-    align-items: right;
     align-content: flex-end;
     justify-content: right;
     margin: 10px;
     margin-top: 43px;
 }
 
+/*
+@media screen and (max-width: 1280px) {
+    .banner {
+        width: 100px;
+        margin-top: 20px;
+    }
 
+    .texto {
+        width: 400px;
+        margin-left: 1150px;
+        margin-top: 10px;  
+    }
+
+    .texto-1 {
+        font-size: 45px;
+    }
+
+    .paragrafo {
+        font-size: 16px;
+    }
+
+    .carrossel {
+        margin-top: 20px;
+        width: 800px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .banner {
+        width: 300px;
+        margin-top: 20px;
+    }
+
+    .texto {
+        width: 400px;
+        margin-left: 1150px;
+        margin-top: 10px;  
+    }
+
+    .texto-1 {
+        font-size: 45px;
+    }
+
+    .paragrafo {
+        font-size: 16px;
+    }
+
+    .carrossel {
+        margin-top: 20px;
+        width: 800px;
+    }
+}
+*/
+    
