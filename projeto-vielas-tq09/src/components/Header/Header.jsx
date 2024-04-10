@@ -52,6 +52,7 @@ export const Hashtags = () => {
   };
   return (
     <div className= {classeDoElemento} >
+      <div onClique= {mostrarMenu}></div>
       <h1 className='text-1'>#Paraisópolis</h1>
       <h1 className='text-2'>#Saúde</h1>
       <h1 className='text-3'>#Hospitais</h1>
@@ -63,4 +64,4 @@ export const Hashtags = () => {
   );
 }
 
-export default Header;
+export default Header; 
