@@ -13,6 +13,7 @@ const HomePage = () => {
         <Banner></Banner>
         <Colecoes></Colecoes> 
         <Footer></Footer>
+   
     </div>
   )
 }
