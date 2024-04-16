@@ -1,6 +1,7 @@
 import React from "react";
 import './banner.css'
 
+
 const Banner = () => {
     return (
         <div className='banner'>
@@ -12,7 +13,7 @@ const Banner = () => {
              Nascido nas quebradas e fomentado por quem vive e pensa nelas.
              </p>
             </div>
-            <div>
+            <div className="componente-carrossel">
                 <Carrossel />
             </div>
         </div>
