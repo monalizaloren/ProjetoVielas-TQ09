@@ -1,128 +1,93 @@
-* {
-    box-sizing: border-box;
-    font-family: 'Space Mono', monospace;
-}
-
-:root {
-
-    /* Colors: */
-    color: #414278;
-    color: #8140A6;
-    color: #EAC05A;
-    color: #C8DDDA;
-    color: #4761B4;
-    color: #70707000;
-    color: #E5401B;
-}
-
-.container-fluid {
+.navbar {
     background: #4761b4 0% 0% no-repeat padding-box;
-    display: flex;
+    display:flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    padding: 20px 0;
-    border: 1px solid #707070;
-    opacity: 1;
-    top: 0px;
-    left: -1px;
     width: 100%;
-    height: 80px;
+    heigth: 100px;
+    border: 1x solid #707070;
 }
 
-.classeMostrarMenu {
-    display:block;
-}
-
-.navbar {
+.navbar-brand {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
     align-items: center;
-    list-style: none;
-    width: 100%;
+    justify-content: flex-start;
 }
 
-.menu-list {
-    
-    margin-left: 150px;
-    width: 30px;
-    height: 56px;
-    opacity: 1;
-
+.navbar-brand img {
+    margin-right: 20px;
 }
+
 
 .lista {
-    width: 60px;
-    height: 60px;
+    width: 93px;
+    height: 75px;
+    margin-left: 80px;
+    opacity: 1;
+    cursor:pointer;
 }
 
-.name {
-    color: #ffffff;
-    top: 21px;
-    left: 259px;
-    width: 270px;
-    height: 40px;
-
-}
-
-#style-name {
-    color: #ffffff;
+.style-name {
+    color: white;
     font-family: 'Space Mono' monospace;
     font: normal normal normal 46px/69px Space Mono;
     letter-spacing: 0px;
     opacity: 1;
     text-align: left;
-    margin-top: auto;
+    align-items: center;
+    margin-top: 5px;
     font-size: 45px;
     display: flex;
     justify-content: center;
+    width: 270px;
+    height: 40px;
 }
 
-.navbar-nav {
+
+.nav-item {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
-    list-style: none;
-    width: 100%;
+    
 }
 
+.collapse {
+    display:flex;
+    justify-content: flex-end;
+    margin-right: 60px;
+}
+
+
 .login {
-    top: 31px;
     width: 92px;
     height: 45px;
     text-align: left;
     font: normal normal normal 30px/45px Space Mono;
     letter-spacing: 0px;
-    color: #cccccc;
     opacity: 1;
-    margin-right: 20px;
-    margin-left: 550px;
-    font-size: 25px;
-    text-decoration: none;
-
+    display:flex;
+      
 }
 
-.perfil {
+.nav-item{
+    color: #cccccc;
+    font-size: 25px;
+}
+
+
+.nav-link img {
     background: #ffffff 0% 0% no-repeat padding-box;
     color: #cccccc;
-    opacity: 1;
-    top: 14px;
-    left: 1683px;
+    opacity: 1;  
     width: 70px;
     height: 70px;
     border-radius: 50%;
     padding: 10px 10px;
     margin: 15px 40px;
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
-.pessoa {
-    width: 35px;
-    height: 35px;
-    margin-top: 5px;
-}
 
 .busca {
     width: 100%;
@@ -132,8 +97,7 @@
     align-items: center;
     opacity: 1;
     position: absolute;
-    margin-top: 50px;
-    
+    margin-top: 50px;      
 }
 
 .lupa {
@@ -141,7 +105,7 @@
     height: 30px;
     position: absolute;
     right: calc(100% - 465px); 
-    transform: translateY(170%);
+    transform: translateY(50%);
 }
 
 .style-busca {
@@ -151,245 +115,136 @@
     opacity: 1;
     position: sticky;
     top: 172px;
-    left: 278px;
+    left: 420px;
     width: 1080px;
     height: 54px;
-    padding-left: 50px;
+    padding-left: 55px;
     text-align: left;
     font-size: 25px;
     margin: 20px;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 .hashtags {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     margin-top: 20px;
-    width: 26px;
-    height: 27px;
+    padding: 30px;
+    flex-wrap: wrap;
+    gap:2%;
 }
 
-.text-1 {
-    font-family: 'Space Mono', monospace;
+.textos {
+    display:flex;
+    flex-direction: row; 
     font-style: italic;
     text-decoration: underline;
-    color: #707070;
-    font-size: 22px;
-    margin-left: 332px;
+    color: #707070;  
+    flex-wrap: wrap;
 }
 
-.text-2 {
-    font-family: 'Space Mono', monospace;
-    font-style: italic;
-    text-decoration: underline;
-    color: #707070;
-    font-size: 22px;
-    margin-left: 60px;
-}
-
-.text-3 {
-    font-family: 'Space Mono', monospace;
-    font-style: italic;
-    text-decoration: underline;
-    color: #707070;
-    font-size: 22px;
-    margin-left: 60px;
-}
-
-.text-4 {
-    font-family: 'Space Mono', monospace;
-    font-style: italic;
-    text-decoration: underline;
-    color: #707070;
-    font-size: 22px;
-    margin-left: 60px;
-}
-
-.text-5 {
-    font-family: 'Space Mono', monospace;
-    font-style: italic;
-    text-decoration: underline;
-    color: #707070;
-    font-size: 22px;
-    margin-left: 60px;
-}
-
-.text-6 {
-    font-family: "Space Mono", monospace;
-    font-style: italic;
-    text-decoration: underline;
-    color: #707070;
-    font-size: 22px;
-    margin-left: 60px;
-}
-
-.text-7 {
-    font-family: 'Space Mono', monospace;
-    font-style: italic;
-    text-decoration: underline;
-    color: #707070;
-    font-size: 22px;
-    margin-left: 60px;
-}
-
-@media screen and (max-width: 1280px) {
-     
-    .container-fluid {
-        width: 100%;
-    }
+@media screen and (max-width: 320px) {
     .navbar {
-        left: 10px;
+        height: 80px;
     }
 
-    .menu-list {
-        margin-left: 40px;
+    .navbar-brand {
+        width: 80px;
+        heigth: 80px;
     }
-
-    .navbar-nav {
-       margin-right: 120px;
+    .lista {
+        width: 10px;
+        
     }
-
-    .login {
-        margin-left: 400px;
+    .style-name {
+        font-size:30px;
+    }
+    .style-busca{
+        heigth: 40px
     }
     
-    .lupa {
+    
+    
+}
+
+       
+@media screen and (max-width:425px) {
+    
+    .lista {
+        width: 65px;
+        margin-left: 10px;
+    }
+    .style-name{
+        width: 127px;
+        
+    }
+    .nav-item{
         margin-left: 0px;
-        position: absolute;
-        right: calc(100% - 235px); 
-        transform: translateY(170%);
     }
 
-    .busca {
-        margin-left: 20px;
-        padding-left: 20px;
+    .hashtags{ 
+        display: none;
+    }
+
+    .lupa {
+        left: calc(31% - 10px); 
+        transform: translateY(2px);
     }
 
     .style-busca {
-      left: 5px;
-      width: 900px;
+        width: 300px;
+        margin: auto;
+        margin-top: 20px;
+        
     }
-
-    .hashtags {
-        margin-left: -250px;
-    }
-
-    .text-1 {
-        margin-left: 360px;
-        font-size: 22px;
-    }
-
-    .text-2 {
-        font-size: 22px;
-        left: 10px;
-        margin-left: 25px;
-    }
-
-    .text-3 {
-        font-size: 22px;
-        margin-left: 25px;
-    }
-    .text-4 {
-        font-size: 22px;
-        margin-left: 25px;
-    }
-
-    .text-5 {
-        font-size: 22px;
-        margin-left: 25px;
-    }
-
-    .text-6 {
-        font-size: 22px;
-        margin-left: 25px;
-    }
-
-    .text-7 {
-        font-size: 22px;
-        margin-left: 25px;
-    }   
 }
 
+@media screen and (max-width: 768px) {
+    .nav-item {
+        align-items: center;
+        margin-left: 0px;
+
+    }
+    .login {
+        margin:10px 0;
+        text-align: center;
+    }
+
+    .perfil {
+        margin: 10px auto;
+    }
+    .lupa {
+        left: 35px;
+        
+    }
+    
+    .hashtags {
+        display: none;}    
+}
 
 @media screen and (max-width: 1024px) {
     
-        .navbar {
-            left: 5px;  
-        }
+    .navbar-brand {
+        width: 300px;
+    }
 
-        .name {
-            width: 270px;
-            height: 50px;
-            margin-left: -20px;
-        }
-
-        .style-name {
-            margin-top: 5px;
-        }
-
-        .lista {
-            margin-top: 1px;   
-    
-        }
-
-        .login {
-            margin-left: 200px;
-        }
-        .perfil {
-            margin-left: 1px;
-        }
-
-        .busca {
-             margin-left: 20px;
-            padding-left: 20px;
-        }
-        
-        .style-busca {
-            width: 700px;
-            left: 2px;
-        
-        }
-
-        .lupa {
-            margin-left: 0px;
-            position: absolute;
-            right: calc(100% - 205px); 
-            transform: translateY(170%);
-        }
-
-        .text-1 {
-            margin-left: 100px;
-            font-size: 16px;
+    .style-name{
+            margin-rigth:60px;
         }
     
-        .text-2 {
-            font-size: 16px;
+    .lupa {
+            left: calc(5% - 10px);   
         }
+}
 
-        .text-3 {
-            font-size: 16px;
-        }
-
-        .text-4 {
-            font-size: 16px;
-        }
-
-        .text-5 {
-            font-size: 16px;
-        }
-
-        .text-6 {
-            font-size: 16px;
-        }
-
-        .text-7 {
-            font-size: 16px;
-        }   
-
+@media screen and (max-width: 1440px) {
+    .busca, .style-busca {
+        left: 155px;
+    }
+    .lupa {
+        right: calc(88% - 30px);
         
-       
-
-        
+    }
 }

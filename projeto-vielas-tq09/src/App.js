@@ -1,6 +1,8 @@
 //import logo from './logo.svg';
+import'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import HomePage from './pages/HomePage/HomePage';
+
 
 function App() {
   return (
@@ -9,5 +11,7 @@ function App() {
     </div>
   );
 }
+
+
 
 export default App;
