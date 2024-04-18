@@ -15,7 +15,7 @@ import img06 from '../../images/52080817284_52b2d4c451_c06.png'
 const Colecoes = () => {
   return (
 
-    <div className="container">
+    <div className="colecoes-container">
       <h1 className="title">COLEÇÕES</h1>
       <div className="imagensColecoes">
         <div className="imgCol">
