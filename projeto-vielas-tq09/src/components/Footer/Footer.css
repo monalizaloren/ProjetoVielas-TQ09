@@ -1,12 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-* {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-}
 
-.container {
-  background: #E5401B;
+.footer-container {
+  background: var(--corSecundaria);
   height: 380px;
   width: 100vw;
   
@@ -26,8 +21,8 @@ box-sizing: border-box;
 }
 
 .footer-icons i{
-  color: #000000;
-  border: 2px solid #000000;
+  color: var(--corPreto);
+  border: 2px solid var(--corPreto);
   padding: 10px 10px ;
   border-radius: 50%;
   font-size: 18px;
@@ -36,7 +31,7 @@ box-sizing: border-box;
 
 .titleV {
   font-family: 'Space Mono', monospace;
-  color: #ffffff;
+  color: var(--corBranca);
   width: 270px;
   display: flex;
   font-size: 24px;
@@ -48,7 +43,7 @@ box-sizing: border-box;
   list-style: none;
   
   font-family: 'Space Mono', monospace;
-  color: #000000;
+  color: var(--corPreto);
   font-size: 25px;
   text-align: left;
   width: 674px;
