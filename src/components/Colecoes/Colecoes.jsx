@@ -15,20 +15,20 @@ import img06 from '../../images/52080817284_52b2d4c451_c06.png'
 const Colecoes = () => {
   return (
 
-    <div className="container">
+    <div className="colecoes-container">
       <h1 className="title">COLEÇÕES</h1>
       <div className="imagensColecoes">
-        <div className="img">
+        <div className="imgCol">
           <img src={colecoesImg1} alt="Imagem Coleções 1" />
           <h2>Eleições 2022</h2>
           <p>Como estão as eleições nas periferias e Grande São Paulo</p>
         </div>
-        <div className="img">
+        <div className="imgCol">
           <img src={colecoesImg2} alt="Imagem Coleções 2" />
           <h2>Arte de Rua</h2>
           <p>Grafites que enfeitam as ruas das quebradas</p>
         </div>
-        <div className="img">
+        <div className="imgCol">
           <img src={colecoesImg3} alt="Imagem Coleções 3" />
           <h2>Crise Financeira</h2>
           <p>Como a alta dos preços impacta as famílias das periferias</p>
