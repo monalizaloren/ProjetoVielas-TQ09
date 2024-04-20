@@ -6,10 +6,10 @@
     flex-wrap: wrap;
 }
 
-.texto {
-    background: #4761b4 0% 0% no-repeat padding-box;
-    color: #ffffff;
-    border: 1px solid #707070;
+.texto-banner {
+    background: var(--corPrimaria) 0% 0% no-repeat padding-box;
+    color: var(--corPrimaria);
+    border: 1px solid var(--corCinzaEscuro);
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -20,7 +20,7 @@
     margin-top: 0px;
 }
 
-.texto-1 {
+.texto-tema-banner {
     display:flex;
     flex-direction: column-reverse;
     font-size: 56px;
@@ -30,7 +30,7 @@
     right: 20px;
 }
 
-.paragrafo {
+.paragrafo-banner {
     font-size: 20px;
     margin-top: 10px;
     height: 340px;
@@ -38,30 +38,29 @@
     text-align: left;
 }
 
-.carousel-slide  {
-    
+.carousel-slide  {  
     width: 750px;
-    heigth: 400px;
+    height: 500px;
     opacity: 1;
     margin-left: 10px;
 }
 
 @media screen and (max-width:320px) {
-    .texto {
+    .texto-banner {
         width: 300px;
+        height: 210px;
+        margin-top: 15px;
         
     }
-    .texto-1 {
+    .texto-tema-banner {
         font-size: 30px;
     }
-    .paragrafo {
+    .paragrafo-banner {
         font-size: 15px;
     }
-    .componente-carrossel {
-        
-    }
+    
     .carousel-slide {
-        max-width: 10%;
+        width: 100%;
         margin: auto;
         margin-top: 15px;
     }
@@ -76,12 +75,37 @@
         margin: 20px;   
     }
 
+    .texto-banner{
+        width: 235px;
+        height: 290px;
+    }
+
+    .texto-tema-banner{
+        font-size: 29px;
+    }
+
     .componente-carrossel {
         margin-top: 15px;   
     }   
+
+    .carousel-slide{
+        width: 100%;
+    }
+
+    .lupa{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 768px) {
+    .texto-banner{
+        width: 450px;
+        height: 260px;
+    }
+    .texto-tema-banner{
+        font-size: 40px;
+    }
+
     .carousel-slide {
         max-width: 58%;
         margin: auto;
@@ -92,7 +116,12 @@
 @media screen and (max-width: 1024px) {
     .banner {
         flex-direction: row;
-        
+        margin-top: 15px;
+    }
+
+    .texto-banner{
+        height: 330px;
+        margin-left: 5px;
     }
     .carousel-slide {
         max-width: 60%;
