@@ -2,15 +2,15 @@ import React from 'react';
 
 const ResultadoEmColecoes = () =>{
     return(
-        <section>
+        <section className='sessao'>
             <h2> Resultado em Coleções</h2>
             <div>                
-                <picture>
+                <picture className='caixaesquerda'>
                     <h2> Resultado em coleções</h2>
                     <img src="#" alt="imagem descritiva do nosso produto escolhido">
                     </img>
                 </picture>
-                <div>
+                <div className='caixadireita'>
                     <h3> Crise Financeira </h3>
                     <p> Como a alta dos preços impacta as famílias das periferias.</p>
                 </div>

@@ -1,0 +1,16 @@
+.caixaEsquerda{
+    display: flex;
+    justify-content:start;
+    flex-wrap: wrap;
+
+}
+.imageCaixa{
+    object-fit: cover;
+    width: 15rem;
+}
+.imagemSemelhante {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:1rem;
+}
