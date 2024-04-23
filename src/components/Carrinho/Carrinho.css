@@ -14,12 +14,13 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
-    border: 1px solid #707070;
+    border: 1px solid var(--corCinzaEscuro);
 
 }
 .carrinhoItemRow{
     display: flex;
     padding: 1%;
+    gap: 2%;
 }
 .col{
     display: flex;
@@ -58,11 +59,11 @@
     height: 40px;
 }
 .carrinho a:not(#termosLicenca){
-    color: #000000;
+    color: var(--corPreto);
     text-decoration: none;
 }
 #termosLicenca{
-    color: #E5401B;
+    color: var(--corSecundaria);
 }
 #selecionarParaCompra {
     width: fit-content;
@@ -71,14 +72,14 @@
 }
 .btnProsseguirCompra{
     width: fit-content;
-    background-color: #4761B4;
-    color: #fff;
+    background-color: var(--corPrimaria);
+    color: var(--corBranco);
     font-weight: 900;
     font-size: 1.3rem;
     height: 50px;
     border-radius: 15px;
     padding: 10px;
-    border: #4761B4;
+    border: var(--corPrimaria);
 }
 .grid{
     width: 100%;
