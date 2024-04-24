@@ -107,7 +107,11 @@
     right: calc(100% - 465px); 
     transform: translateY(50%);
 }
-
+.style-busca::placeholder{
+padding-left: 30px;
+color: rgb(168, 166, 166);
+font-family: 'Space Mono' monospace;
+}
 .style-busca {
     background: #ffffff 0% 0% no-repeat padding-box;
     border: 2px solid #707070;
@@ -116,7 +120,7 @@
     position: sticky;
     top: 172px;
     left: 420px;
-    width: 1080px;
+    width: 75%;
     height: 54px;
     padding-left: 55px;
     text-align: left;
@@ -231,11 +235,11 @@
     }
 
     .style-name{
-            margin-rigth:60px;
+           
         }
     
     .lupa {
-            left: calc(5% - 10px);   
+           left: 20%;
         }
 }
 

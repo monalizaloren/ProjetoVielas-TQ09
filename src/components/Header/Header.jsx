@@ -39,7 +39,7 @@ const Header = () => {
 export const Busca = () => {
   return (
     <div className='Busca d-flex mw-300px align-items-center mw-md-100'>
-      <input className='style-busca form-control' type="text" placeholder="Buscar" />
+      <input className='style-busca' type="text" placeholder="BUSCA" />
       <img className='lupa' src={lupa} alt="Lupa" />
     </div>
   );
