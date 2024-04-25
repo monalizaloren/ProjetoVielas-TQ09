@@ -1,5 +1,6 @@
 import React from 'react';
 import './ResultadoEmColecoes.css';
+
 import resultadoImage from '../../images/51415802546_c8275329a9_k.png'
 import Header from '../../components/Header/Header';
 import FotosSemelhantes from '../../components/FotosSemelhantes/FotosSemelhantes';
