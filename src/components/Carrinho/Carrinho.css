@@ -1,0 +1,139 @@
+.carrinho{
+    max-width: 1500px;
+    margin: auto;
+    padding: 3% 5%;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.row{
+    display: flex;
+}
+.carrinhoItem{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    border: 1px solid #707070;
+
+}
+.carrinhoItemRow{
+    display: flex;
+    padding: 1%;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.carrinho h1, .carrinho .pSelecionados{
+    width: 100%;
+    text-align: left;
+}
+.carrinho h1{
+    margin-bottom: 0;
+}
+.carrinho .pSelecionados{
+    margin-top: 10px;
+    font-weight: 500;
+}
+.carrinho section{
+    align-items: start;
+    gap: 2%;
+}
+.carrinho img{
+    width: 35%;
+}
+.carrinho table{
+    width: 100%;
+    text-align: left;
+}
+.carrinho tr{
+    vertical-align: top;
+    
+}
+.carrinho td:first-child{
+    margin-right: 3%;
+    width: 30%;
+    height: 40px;
+}
+.carrinho a:not(#termosLicenca){
+    color: #000000;
+    text-decoration: none;
+}
+#termosLicenca{
+    color: #E5401B;
+}
+#selecionarParaCompra {
+    width: fit-content;
+    height: fit-content !important;
+    margin-left: 0px;
+}
+.btnProsseguirCompra{
+    width: fit-content;
+    background-color: #4761B4;
+    color: #fff;
+    font-weight: 900;
+    font-size: 1.3rem;
+    height: 50px;
+    border-radius: 15px;
+    padding: 10px;
+    border: #4761B4;
+}
+.grid{
+    width: 100%;
+    display: grid;
+    grid-template-areas: "left right";
+    grid-template-columns: 55% 40%;
+}
+.grid .row, .grid .col{
+    grid-area: right;
+}
+
+@media screen and (max-width: 800px) {
+    .carrinhoItemRow{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .carrinhoItemRow img{
+        width: 100%;
+    }
+    .grid{
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        padding-right: 2%;
+    }
+    .gridProsseguir{
+        align-items: center;
+    }
+    .gridProsseguir .col{
+        text-align: center;
+    }
+    #selecionarParaCompra{
+        margin-left: -60px;
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .carrinho h1{
+        font-size: 1.3rem;
+    }
+    .carrinho .pSelecionados{
+        font-size: .8rem;
+    }
+    .carrinho tr{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 2%;
+    }
+    
+    .carrinho td:first-child {
+        width: 100%;
+        height: fit-content;
+    }
+}
