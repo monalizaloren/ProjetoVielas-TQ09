@@ -15,7 +15,7 @@
     flex-direction: column;
     margin-bottom: 20px;
     border: 1px solid var(--corCinzaEscuro);
-
+    
 }
 .carrinhoItemRow{
     display: flex;
@@ -65,10 +65,16 @@
 #termosLicenca{
     color: var(--corSecundaria);
 }
+
 #selecionarParaCompra {
     width: fit-content;
     height: fit-content !important;
     margin-left: 0px;
+    margin-top: 10px;
+}
+.selecionarParaCompraSpan{
+    margin-top: -18px;
+    margin-left: 10px;
 }
 .btnProsseguirCompra{
     width: fit-content;

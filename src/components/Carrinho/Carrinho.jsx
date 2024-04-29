@@ -32,8 +32,8 @@ const Carrinho = () => {
                             </table>
                         </div>
                         <div className='grid'>
-                            <div className="row">
-                                <input type="checkbox" name="selecionarParaCompra" id="selecionarParaCompra" className="selecionarParaCompra" /> <p>Selecionar para compra</p>
+                            <div className="row ">
+                                <input type="checkbox" name="selecionarParaCompra" id="selecionarParaCompra" className="selecionarParaCompra" /> <span  className="selecionarParaCompraSpan">Selecionar para compra</span>
                             </div>
                         </div>
                     </div>
