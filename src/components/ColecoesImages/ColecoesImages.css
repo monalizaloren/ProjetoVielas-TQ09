@@ -1,0 +1,24 @@
+.colecoesImages{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-top: 3px solid var(--corPrimaria);
+    margin-top: 3%;
+}
+.colecoesImages img{
+    width: 30%;
+    margin-top: 3%;
+}
+
+@media screen and (max-width: 600px) {
+    .colecoesImages img{
+        width: 48%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .colecoesImages img{
+        width: 100%;
+        margin: 2% auto;
+    }
+}
