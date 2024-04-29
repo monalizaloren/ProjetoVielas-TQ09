@@ -3,6 +3,7 @@ import './header.css'
 import lista from '../../images/list.png'
 import pessoa from '../../images/person.svg'
 import lupa from '../../images/search.svg'
+import Links from '../Links/Links';
 
 const Header = () => {
   const [setClasseDoElemento] = useState('hashtags');
@@ -53,17 +54,9 @@ export const Hashtags = () => {
     setClasseDoElemento('classeMostrarMenu');
   };
   return (
-    <div className= {classeDoElemento} >
-      <div className='textos mx-auto text-sm min-vw-100vw w-md-auto' button={mostrarMenu}>
-        <h1 className='text-1 px-3 fs-4'>#Paraisópolis</h1>
-        <h1 className='text-2 fs-4 px-3' >#Saúde</h1>
-        <h1 className='text-3 px-3 fs-4'>#Hospitais</h1>
-        <h1 className='text-4 px-3 fs-4'>#Coperifa</h1>
-        <h1 className='text-5 -px-3 fs-4'>#CasaDeCultura</h1>
-        <h1 className='text-6 px-3 fs-4'>#Eleições</h1>
-        <h1 className='text-7 px-3 fs-4'>#Urnas</h1>
-      </div>
-    </div>
+    < >
+        <Links />
+    </>
   );
 }
 
