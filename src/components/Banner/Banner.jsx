@@ -9,10 +9,10 @@ import img03carrocel from '../../images/canteiro-de-obras-do-futuro-parque-linea
 const Banner = () => {
     return (
         <div className='banner'>
-            <div className='texto'>
-                <h1 className='texto-1'>VIELAS</h1>
+            <div className='texto-banner'>
+                <h1 className='texto-tema-banner'>VIELAS</h1>
 
-                <p className='paragrafo'>Um banco de imagens pensado para mostrar a diversidade das periferias de São Paulo.
+                <p className='paragrafo-banner'>Um banco de imagens pensado para mostrar a diversidade das periferias de São Paulo.
                     <br />
                     Nascido nas quebradas e fomentado por quem vive e pensa nelas.
                 </p>

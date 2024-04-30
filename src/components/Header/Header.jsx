@@ -12,7 +12,7 @@ const Header = () => {
   // };
   return (
   
-      <nav className="navbar navbar-expand-lg navbar-expand-md navbar-light">
+      <nav className="navbar navbar-expand-lg navbar-expand-sm navbar-light">
         <a className="navbar-brand" href="/">
           <img className='lista' src={lista} alt="Menu" />
           <h1 className='style-name'>VIELAS</h1>
@@ -38,8 +38,8 @@ const Header = () => {
 
 export const Busca = () => {
   return (
-    <div className='Busca d-flex mw-300px align-items-center mw-md-100'>
-      <input className='style-busca form-control' type="text" placeholder="Buscar" />
+    <div className='Busca d-flex mw-80 align-items-center mw-md-40'>
+      <input className='style-busca-header form-control' type="text" placeholder="Buscar" />
       <img className='lupa' src={lupa} alt="Lupa" />
     </div>
   );
@@ -54,14 +54,14 @@ export const Hashtags = () => {
   };
   return (
     <div className= {classeDoElemento} >
-      <div className='textos mx-auto text-sm min-vw-100vw w-md-auto' button={mostrarMenu}>
-        <h1 className='text-1 px-3 fs-4'>#Paraisópolis</h1>
-        <h1 className='text-2 fs-4 px-3' >#Saúde</h1>
-        <h1 className='text-3 px-3 fs-4'>#Hospitais</h1>
-        <h1 className='text-4 px-3 fs-4'>#Coperifa</h1>
-        <h1 className='text-5 -px-3 fs-4'>#CasaDeCultura</h1>
-        <h1 className='text-6 px-3 fs-4'>#Eleições</h1>
-        <h1 className='text-7 px-3 fs-4'>#Urnas</h1>
+      <div className='textos-header mx-auto text-sm min-vw-100vw w-md-auto' button={mostrarMenu}>
+        <h1 className='text-header1 px-4 fs-4'>#Paraisópolis</h1>
+        <h1 className='text-header2 fs-4 px-4' >#Saúde</h1>
+        <h1 className='text-header3 px-4 fs-4'>#Hospitais</h1>
+        <h1 className='text-header4 px-4 fs-4'>#Coperifa</h1>
+        <h1 className='text-header5 -px-4 fs-4'>#CasaDeCultura</h1>
+        <h1 className='text-header6 px-4 fs-4'>#Eleições</h1>
+        <h1 className='text-header7 px-4 fs-4'>#Urnas</h1>
       </div>
     </div>
   );
