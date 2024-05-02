@@ -1,4 +1,4 @@
-import './Banner.css';
+import './banner.css';
 import BannerCard from "../BannerCard/BannerCard";
 import BannerCarousel from "../BannerCarousel/BannerCarousel";
 
