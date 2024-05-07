@@ -1,0 +1,11 @@
+.galeria-imagens .item-imagem-galeria {
+  width: 18rem;
+  height: auto;
+  object-fit: cover;
+}
+
+@media (min-width: 1024px) {
+  .galeria-imagens .item-imagem-galeria {
+    width: calc(33.3% - 16px);
+  }
+}
