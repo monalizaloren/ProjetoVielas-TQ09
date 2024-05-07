@@ -1,10 +1,10 @@
 import "./BannerCarousel.css"
-import img01carrocel from '../../images/pauta-com-o-ngks-no-jardim-amalia-capao-redondo---zona-sul---sp2021_leu-britto-20_50998249707_o.jpg'
+import BancoDeImagens from "../../db/BancoDeImagens/BancoDeImagens";import img01carrocel from '../../'
 
 const BannerCarousel = () => {
     return (
         <div className='BannerCarousel'>
-            <img src={img01carrocel} className="" alt="." />    
+            <img src={BancoDeImagens[20].src} className="" alt="." />    
         </div>
     )
 }

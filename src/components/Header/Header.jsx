@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import './header.css'
-import lista from '../../images/list.png'
-import pessoa from '../../images/person.svg'
-import lupa from '../../images/search.svg'
+
+
 import Links from '../Links/Links';
+import BancoDeImagens from "../../db/BancoDeImagens/BancoDeImagens";
 
 const Header = () => {
   const [setClasseDoElemento] = useState('hashtags');
@@ -15,7 +15,7 @@ const Header = () => {
   
       <nav className="navbar navbar-expand-lg navbar-expand-md navbar-light">
         <a className="navbar-brand" href="/">
-          <img className='lista' src={lista} alt="Menu" />
+          <img className='lista' src={BancoDeImagens[20].src} alt="Menu" />
           <h1 className='style-name'>VIELAS</h1>
         </a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,7 +28,7 @@ const Header = () => {
             </li>
             <li className="nav-item">
               <a className="nav-link">
-                <img className='pessoa' src={pessoa} alt='Foto' />
+                <img className='pessoa' src={ BancoDeImagens[20].src} alt='Foto' />
               </a>
             </li>
           </ul>
@@ -41,7 +41,7 @@ export const Busca = () => {
   return (
     <div className='Busca d-flex mw-300px align-items-center mw-md-100'>
       <input className='style-busca form-control' type="text" placeholder="Buscar" />
-      <img className='lupa' src={lupa} alt="Lupa" />
+      <img className='lupa' src={BancoDeImagens[20].src} alt="Lupa" />
     </div>
   );
 }
