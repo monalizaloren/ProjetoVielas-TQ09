@@ -84,12 +84,14 @@ import foto83 from "../../assets/img/foto83.jpg";
 import foto84 from "../../assets/img/foto84.jpg";
 import foto85 from "../../assets/img/foto85.jpg";
 
-const bancoDeImagens = [
+const BancoDeImagens = [
   {
+    id: "01",
     src: foto1,
     alt: "1-feira-pretos-em-conexo-no-beco-do-robin_guarulhos_sp2022_lu-britto-2_52098715999_o",
   },
   {
+    id: "02",
     src: foto2,
     alt: "1-feira-pretos-em-conexo-no-beco-do-robin_guarulhos_sp2022_lu-britto-143_52098983475_o",
   },
@@ -427,4 +429,4 @@ const bancoDeImagens = [
   },
 ];
 
-export default bancoDeImagens;
+export default BancoDeImagens;
