@@ -5,7 +5,8 @@ const HeaderContainer = styled.header`
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  padding: 0 5rem;
+  gap: 0.5rem;
+  padding: 1rem 5rem;
   width: 100%;
   min-height: 4rem;
   background-color: var(--colorPrimary);
@@ -25,6 +26,16 @@ const HeaderContainer = styled.header`
     height: 3rem;
     border-radius: 50%;
     background-color: var(--colorWhite);
+  }
+
+  @media (max-width: 500px) {
+    justify-content: center;
+    flex-direction: column;
+
+    .login-area-header {
+      flex-direction: column-reverse;
+      gap: 0.5rem;
+    }
   }
 `;
 
