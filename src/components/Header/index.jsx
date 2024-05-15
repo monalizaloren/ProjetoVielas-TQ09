@@ -5,10 +5,10 @@ const Header = () => {
   return (
     <HeaderContainer>
       <Logo />
-      <selection className="login-area-header">
+      <section className="login-area-header">
         <p className="descricao-login">login</p>
         <div className="image-user-container"></div>
-      </selection>
+      </section>
     </HeaderContainer>
   );
 };
