@@ -1,4 +1,3 @@
-import "./Logo.css";
 import { Link } from "react-router-dom";
 import LogoContainer from "./LogoContainer";
 
