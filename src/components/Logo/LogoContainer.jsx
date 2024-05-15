@@ -16,13 +16,13 @@ const LogoContainer = styled.section`
 
   .row-logo {
     border: none;
-    background-color: white;
+    background-color: var(--colorWhite);
     width: 3.5rem;
     height: 0.5rem;
   }
 
   .title-logo {
-    color: var(--corBranco);
+    color: var(--colorWhite);
     font-size: 1.8em;
   }
 `;

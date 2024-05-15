@@ -8,25 +8,26 @@ const GlobalStyle = createGlobalStyle`
     }
 
   :root {
-    --corPrimaria: #4761b4;
-    --corSecundaria: #e5401b;
-    --corTerciario: #1473e6;
-    --corBranco: #fff;
-    --corPreto: #000;
+    --colorPrimary: #4761b4;
+    --colorSecundary: #e5401b;
+    --colorTertiary: #1473e6;
+    --colorWhite: #fff;
+    --colorBlack: #000;
 
-    --corRoxoEscuro: #414278;
-    --corRoxo: #8140a6;
-    --corAmarelo: #eac05a;
-    --corCinza: #c8ddda;
-    --corCinzaEscuro: #707070;
+    --colorDarkPurple: #414278;
+    --colorPurple: #8140a6;
+    --colorYellow: #eac05a;
+    --colorGray:#CCCCCC;
+    --colorLightCyan: #c8ddda;
+    --colorDarkGray: #707070;
 
-    --fontePadrao: "Space Mono", monospace;
+    --defaultFont: "Space Mono", monospace;
   }
 
   body {
     max-width: 100vw;
     max-height: 100vh;
-    font-family: var(--fontePadrao);
+    font-family: var(--defaultFont);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
