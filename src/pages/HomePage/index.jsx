@@ -1,7 +1,12 @@
+import Search from "../../components/Search";
 import Layout from "../../layout";
 
 const HomePage = () => {
-  return <Layout></Layout>;
+  return (
+    <Layout>
+      <Search />
+    </Layout>
+  );
 };
 
 export default HomePage;
