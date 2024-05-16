@@ -1,11 +1,6 @@
 import styled from "styled-components";
 
 const FooterContainer = styled.footer`
-  /* RETIRAR DEPOIS */
-  position: absolute;
-  bottom: 0;
-  /* -------------- */
-
   width: 100%;
   padding: 1rem 5rem 3rem 5rem;
   background-color: var(--colorSecundary);
