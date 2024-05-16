@@ -14,6 +14,15 @@ const FooterContainer = styled.footer`
   align-items: center;
   gap: 1rem;
 
+  a {
+    color: var(--colorBlack);
+    text-decoration: none;
+  }
+
+  ul {
+    list-style: none;
+  }
+
   .title-icon-social-footer {
     width: 100%;
     display: flex;
@@ -33,7 +42,7 @@ const FooterContainer = styled.footer`
   }
 
   i {
-    border: 1px solid #000;
+    border: 1px solid var(--colorBlack);
     border-radius: 50%;
     padding: 0.3rem;
     display: flex;
@@ -43,15 +52,6 @@ const FooterContainer = styled.footer`
 
   li {
     font-size: 1.2em;
-  }
-
-  a {
-    color: #000;
-    text-decoration: none;
-  }
-
-  ul {
-    list-style: none;
   }
 `;
 

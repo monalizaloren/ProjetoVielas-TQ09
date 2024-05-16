@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const SearchContainer = styled.section`
   position: relative;
-  margin-top: 2rem;
+  margin: 2rem;
   width: 50%;
 
   input {
