@@ -9,7 +9,7 @@ const CollectionsArea = () => {
       <h1>COLEÇÕES</h1>
       <ImageGallery>
         <Link
-          to={`collections/${ImageData[0].id}`}
+          to={`collections/${ImageData[28].id}`}
           className="first-collection"
         >
           <img {...ImageData[28]} />
