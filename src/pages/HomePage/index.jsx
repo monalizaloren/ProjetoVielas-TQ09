@@ -4,6 +4,7 @@ import Search from "../../components/Search";
 import TagCollections from "../../components/TagCollections";
 import ImageGallery from "../../components/ImageGallery";
 import ImageItem from "../../components/ImageItem";
+import CollectionsArea from "../../components/CollectionsArea";
 
 const HomePage = () => {
   const TotalGalleryImages = Array.from({ length: 6 });
@@ -12,6 +13,7 @@ const HomePage = () => {
     <Layout>
       <Search />
       <TagCollections />
+      <CollectionsArea />
       <ImageGallery>
         {TotalGalleryImages.map(() => (
           <ImageItem

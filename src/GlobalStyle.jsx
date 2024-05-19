@@ -23,7 +23,9 @@ const GlobalStyle = createGlobalStyle`
 
     --defaultFont: "Space Mono", monospace;
   }
-
+  a {
+    text-decoration:none;
+  }
   body {
     max-width: 100vw;
     max-height: 100vh;

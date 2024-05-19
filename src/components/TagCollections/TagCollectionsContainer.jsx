@@ -1,10 +1,11 @@
 import styled from "styled-components";
 
 const TagCollectionsContainer = styled.section`
+  width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 1rem;
 
   a {
     color: var(--colorBlack);
