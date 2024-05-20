@@ -273,8 +273,18 @@ const ImageData = [
     alt: "domingo-06-11_leu-britto-11_52567237324_o",
   },
   {
+    id: "24",
     src: foto24,
     alt: "domingo-06-11_leu-britto-118_52567404715_o",
+    title: "Futebol na Comunidade",
+    description:
+      "Time de futebol da comunidade, reunidos para um domingo de jogo.",
+    category: "parque",
+    owner: "Lu Britto",
+    typeOfMedia: "Imagem do Creative",
+    resolution: "Resolução 4000 x 6000 - 300 dpi - RGB",
+    LicenseType: "Royalty-free | Ver resumo das licenças",
+    use: "Disponível para todas as utilizações permitidas ao abrigo dos nossos Termos de Licença",
   },
   {
     src: foto25,
@@ -459,8 +469,17 @@ const ImageData = [
     alt: "riancas_leu-britto-agencia-mural-19_49395201692_o",
   },
   {
+    id: "68",
     src: foto68,
     alt: "riancas_leu-britto-agencia-mural-33_49394513773_o",
+    title: "Criança no Parquinho",
+    description: "Criança feliz brincando no parquinho em um dia ensolarado.",
+    category: "crianca",
+    owner: "Lu Britto",
+    typeOfMedia: "Imagem do Creative",
+    resolution: "Resolução 4000 x 6000 - 300 dpi - RGB",
+    LicenseType: "Royalty-free | Ver resumo das licenças",
+    use: "Disponível para todas as utilizações permitidas ao abrigo dos nossos Termos de Licença",
   },
   {
     id: "69",
