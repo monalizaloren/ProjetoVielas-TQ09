@@ -17,8 +17,13 @@ const HeaderContainer = styled.header`
     align-items: center;
   }
 
-  .descricao-login {
+  .description-login {
     color: var(--colorGray);
+    cursor: pointer;
+  }
+
+  .description-login:hover {
+    color: var(--colorWhite);
   }
 
   .image-user-container {
