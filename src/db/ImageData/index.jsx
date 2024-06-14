@@ -409,8 +409,18 @@ const ImageData = [
     alt: "pauta-com-o-ngks-no-jardim-amalia-capao-redondo---zona-sul---sp2021_leu-britto-2_50997000778_o",
   },
   {
+    id: "53",
     src: foto53,
     alt: "pauta-com-o-ngks-no-jardim-amalia-capao-redondo---zona-sul---sp2021_leu-britto-20_50998249707_o",
+    title: "Comunidade com estilo",
+    description:
+      "Com a diversidade de culturas dentro da comunidade, ela cria seu próprio estilo e esbanja beleza.",
+    category: "comunidade",
+    owner: "Lu Britto",
+    typeOfMedia: "Imagem do Creative",
+    resolution: "Resolução 4000 x 6000 - 300 dpi - RGB",
+    LicenseType: "Royalty-free | Ver resumo das licenças",
+    use: "Disponível para todas as utilizações permitidas ao abrigo dos nossos Termos de Licença",
   },
   {
     src: foto54,
