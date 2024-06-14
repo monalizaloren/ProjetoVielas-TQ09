@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const ImagemItem = ({ src, alt, classNameImg, id }) => {
   return (
     <>
-      <Link to={`product-image/${id}`}>
+      <Link to={`image-selected/${id}`}>
         <img src={src} alt={alt} className={classNameImg} />
       </Link>
     </>
