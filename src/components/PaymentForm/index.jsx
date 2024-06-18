@@ -119,7 +119,7 @@ const PaymentForm = () => {
           </div>
         </div>
       </section>
-      <button>Comprar</button>
+      <button>Finalizar Compra</button>
     </PaymentFormContainer>
   );
 };
