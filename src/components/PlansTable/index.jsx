@@ -1,7 +1,10 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import PlansTableContainer from "./PlansTableContainer";
 
 const PlansTable = () => {
+  const navigate = useNavigate();
+
   const [hoverToggle, setHoverToggle] = useState(null);
 
   const handleMouseEnter = (colClas) => {
@@ -20,6 +23,7 @@ const PlansTable = () => {
             className={`col-01 ${hoverToggle === "col-01" ? "hover" : ""}`}
             onMouseEnter={() => handleMouseEnter("col-01")}
             onMouseLeave={handleMouseLeave}
+            onClick={() => navigate("/payment-gateway/01")}
           >
             PARA COMEÇAR
           </th>
@@ -27,6 +31,7 @@ const PlansTable = () => {
             className={`col-02 ${hoverToggle === "col-02" ? "hover" : ""}`}
             onMouseEnter={() => handleMouseEnter("col-02")}
             onMouseLeave={handleMouseLeave}
+            onClick={() => navigate("/payment-gateway/02")}
           >
             10 FOTOS <p className="small-period">POR MÊS</p>
           </th>
@@ -34,6 +39,7 @@ const PlansTable = () => {
             className={`col-03 ${hoverToggle === "col-03" ? "hover" : ""}`}
             onMouseEnter={() => handleMouseEnter("col-03")}
             onMouseLeave={handleMouseLeave}
+            onClick={() => navigate("/payment-gateway/03")}
           >
             30 FOTOS <p className="small-period">POR MÊS</p>
           </th>
@@ -41,6 +47,7 @@ const PlansTable = () => {
             className={`col-04 ${hoverToggle === "col-04" ? "hover" : ""}`}
             onMouseEnter={() => handleMouseEnter("col-04")}
             onMouseLeave={handleMouseLeave}
+            onClick={() => navigate("/payment-gateway/04")}
           >
             DOWLOAD ILIMITADO
           </th>
@@ -50,6 +57,7 @@ const PlansTable = () => {
             className={`col-01 ${hoverToggle === "col-01" ? "hover" : ""}`}
             onMouseEnter={() => handleMouseEnter("col-01")}
             onMouseLeave={handleMouseLeave}
+            onClick={() => navigate("/payment-gateway/01")}
           >
             GRATUITO
           </th>
@@ -57,6 +65,7 @@ const PlansTable = () => {
             className={`col-02 ${hoverToggle === "col-02" ? "hover" : ""}`}
             onMouseEnter={() => handleMouseEnter("col-02")}
             onMouseLeave={handleMouseLeave}
+            onClick={() => navigate("/payment-gateway/02")}
           >
             R$ 50
           </th>
@@ -64,6 +73,7 @@ const PlansTable = () => {
             className={`col-03 ${hoverToggle === "col-03" ? "hover" : ""}`}
             onMouseEnter={() => handleMouseEnter("col-03")}
             onMouseLeave={handleMouseLeave}
+            onClick={() => navigate("/payment-gateway/03")}
           >
             R$ 99
           </th>
@@ -71,6 +81,7 @@ const PlansTable = () => {
             className={`col-04 ${hoverToggle === "col-04" ? "hover" : ""}`}
             onMouseEnter={() => handleMouseEnter("col-04")}
             onMouseLeave={handleMouseLeave}
+            onClick={() => navigate("/payment-gateway/04")}
           >
             [FALE COM NOSSA EQUIPE]
           </th>
@@ -82,6 +93,7 @@ const PlansTable = () => {
             className={`col-01 ${hoverToggle === "col-01" ? "hover" : ""}`}
             onMouseEnter={() => handleMouseEnter("col-01")}
             onMouseLeave={handleMouseLeave}
+            onClick={() => navigate("/payment-gateway/01")}
           >
             <p>
               Todos os meses, disponibilizamos uma coleção de fotos gratuitas;
@@ -91,6 +103,7 @@ const PlansTable = () => {
             className={`col-02 ${hoverToggle === "col-02" ? "hover" : ""}`}
             onMouseEnter={() => handleMouseEnter("col-02")}
             onMouseLeave={handleMouseLeave}
+            onClick={() => navigate("/payment-gateway/02")}
             rowSpan="3"
           >
             <p>
@@ -102,6 +115,7 @@ const PlansTable = () => {
             className={`col-03 ${hoverToggle === "col-03" ? "hover" : ""}`}
             onMouseEnter={() => handleMouseEnter("col-03")}
             onMouseLeave={handleMouseLeave}
+            onClick={() => navigate("/payment-gateway/03")}
             rowSpan="3"
           >
             <p>
@@ -113,6 +127,7 @@ const PlansTable = () => {
             className={`col-04 ${hoverToggle === "col-04" ? "hover" : ""}`}
             onMouseEnter={() => handleMouseEnter("col-04")}
             onMouseLeave={handleMouseLeave}
+            onClick={() => navigate("/payment-gateway/04")}
             rowSpan="3"
           >
             <p>Dowload instantâneo ilimitado de fotos para sua equipe.</p>
@@ -123,6 +138,7 @@ const PlansTable = () => {
             className={`col-01 ${hoverToggle === "col-01" ? "hover" : ""}`}
             onMouseEnter={() => handleMouseEnter("col-01")}
             onMouseLeave={handleMouseLeave}
+            onClick={() => navigate("/payment-gateway/01")}
           >
             <p>
               Disponível para veículos hiperlocais e em fins lucrativos,
@@ -135,6 +151,7 @@ const PlansTable = () => {
             className={`col-01 ${hoverToggle === "col-01" ? "hover" : ""}`}
             onMouseEnter={() => handleMouseEnter("col-01")}
             onMouseLeave={handleMouseLeave}
+            onClick={() => navigate("/payment-gateway/01")}
           >
             <p>Mediante a solicitação e aprovação de cadastro.</p>
           </td>
