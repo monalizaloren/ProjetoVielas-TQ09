@@ -13,7 +13,7 @@ const routes = createBrowserRouter(
     <>
       <Route path="/" element={<HomePage />} />
       <Route path="/plans" element={<Plans />} />
-      <Route path="/payment-gateway" element={<PaymentGateway />} />
+      <Route path="/payment-gateway/:id" element={<PaymentGateway />} />
     </>
   )
 );
