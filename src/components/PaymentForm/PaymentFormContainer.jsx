@@ -59,6 +59,19 @@ const PaymentFormContainer = styled.form`
   button:hover {
     opacity: 0.9;
   }
+
+  @media (max-width: 575.98px) {
+    max-width: 100vw;
+    margin-top: 1rem;
+
+    .inputs-group {
+      flex-direction: column;
+    }
+
+    .inputs-exp-cvc-group {
+      flex-direction: column;
+    }
+  }
 `;
 
 export default PaymentFormContainer;
