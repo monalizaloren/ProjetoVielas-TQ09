@@ -12,6 +12,10 @@ const TagCollectionsContainer = styled.section`
     text-decoration: underline;
     font-style: italic;
   }
+
+  @media (max-width: 768px) {
+    justify-content: center;
+  }
 `;
 
 export default TagCollectionsContainer;
