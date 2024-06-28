@@ -93,6 +93,16 @@ const LoginModalConatiner = styled.section`
     font-weight: lighter;
     text-decoration: underline;
   }
+
+  .link-sign-up {
+    align-self: center;
+    color: var(--colorWhite);
+    font-weight: 700;
+  }
+
+  .link-sign-up:hover {
+    text-shadow: 1px 1px 1px black;
+  }
 `;
 
 export default LoginModalConatiner;

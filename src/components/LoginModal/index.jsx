@@ -32,6 +32,9 @@ const LoginModal = () => {
             Esqueceu a senha?{" "}
             <Link className="link-forgot-password">Clique aqui</Link>
           </small>
+          <Link to="/sign-up" className="link-sign-up">
+            Cadastre-se
+          </Link>
         </div>
       </LoginModalConatiner>
     );
