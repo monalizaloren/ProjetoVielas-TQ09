@@ -54,6 +54,10 @@ const InformationImageSelectedContainer = styled.section`
     align-items: center;
   }
 
+  .btn-image-selected:hover {
+    border: 1px solid black;
+  }
+
   @media (max-width: 768px) {
     flex-direction: column;
     align-items: center;
