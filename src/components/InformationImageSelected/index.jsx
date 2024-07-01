@@ -2,8 +2,13 @@ import InformationImageSelectedContainer from "./InformationImageSelectedContain
 import ImageData from "../../db/ImageData";
 import ImageItem from "../ImageItem";
 import { Link } from "react-router-dom";
+import { IsOpenOrderConfirmationModalContext } from "../../contexts/isOpenOrderConfirmationModal";
+import { useContext } from "react";
 
 const InformationImageSelected = ({ indexImage }) => {
+  const [isOpenOrderConfirmationModal, setIsOpenOrderConfirmationModal] =
+    useContext(IsOpenOrderConfirmationModalContext);
+
   return (
     <InformationImageSelectedContainer>
       <div className="image-selected-container">
@@ -24,7 +29,12 @@ const InformationImageSelected = ({ indexImage }) => {
             </a>
           </p>
         </div>
-        <Link to="/plans" className="btn-image-selected">
+        <Link
+          onClick={() =>
+            setIsOpenOrderConfirmationModal(!isOpenOrderConfirmationModal)
+          }
+          className="btn-image-selected"
+        >
           COMPRAR
         </Link>
       </div>
