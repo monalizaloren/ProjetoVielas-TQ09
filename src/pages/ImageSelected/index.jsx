@@ -8,6 +8,8 @@ import ImageGallery from "../../components/ImageGallery";
 import ImageItem from "../../components/ImageItem";
 import ImageData from "../../db/ImageData";
 import Collection from "../../components/Collection";
+import OrderConfirmationModal from "../../components/OrderConfirmationModal";
+import { IsOpenOrderConfirmationModalProvider } from "../../contexts/isOpenOrderConfirmationModal";
 
 const ImageSelected = () => {
   const { id } = useParams();
@@ -17,21 +19,24 @@ const ImageSelected = () => {
 
   return (
     <Layout>
-      <Search />
-      <ImageSelectedContainer>
-        <InformationImageSelected indexImage={indexImage} />
-        <Collection />
-        <TagCollections />
-        <h2>Fotos Semelhantes</h2>
-        <ImageGallery>
-          {TotalGalleryImages.map(() => (
-            <ImageItem
-              key={Math.random()}
-              {...ImageData[Math.floor(Math.random() * 8) + 1]}
-            />
-          ))}
-        </ImageGallery>
-      </ImageSelectedContainer>
+      <IsOpenOrderConfirmationModalProvider>
+        <Search />
+        <ImageSelectedContainer>
+          <InformationImageSelected indexImage={indexImage} />
+          <Collection />
+          <TagCollections />
+          <h2>Fotos Semelhantes</h2>
+          <ImageGallery>
+            {TotalGalleryImages.map(() => (
+              <ImageItem
+                key={Math.random()}
+                {...ImageData[Math.floor(Math.random() * 8) + 1]}
+              />
+            ))}
+          </ImageGallery>
+          <OrderConfirmationModal />
+        </ImageSelectedContainer>
+      </IsOpenOrderConfirmationModalProvider>
     </Layout>
   );
 };
